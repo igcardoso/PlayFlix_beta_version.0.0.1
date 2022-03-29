@@ -8,7 +8,8 @@
 
 # Social networks 
 
-    https://youtu.be/4vgkZslEl1w
+    Instagram: @playflix_plus
+    YouTube: @PlayFlix Plus
 
 # Description
 
