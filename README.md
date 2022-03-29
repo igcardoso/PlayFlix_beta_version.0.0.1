@@ -6,13 +6,13 @@
 
 !["How To Create Responsive Movie Website Using HTML CSS And jQuery"](https://raw.githubusercontent.com/igcardoso/PlayFlix_beta_version.0.0.1/main/images/Screenshot_20220329-065132.png "How To Create Responsive Movie Website Using HTML CSS And jQuery")
 
-# Video
+# Social networks 
 
     https://youtu.be/4vgkZslEl1w
 
 # Description
 
-    We will make Responsive Movie Website Using HTML CSS And jQuery, Owl Carousel
+    Responsive movie site, PlayFlix Beta version with no release date 
 
 # Resource
 
