@@ -27,7 +27,6 @@ body {
   font-family: sans-serif;
   background-color: var(--body-bg);
   color: var(--text-color);
-  padding-top: var(--nav-height);
 }
 
 body .background-fund {
@@ -266,7 +265,7 @@ a.movie-item:hover {
 
 .item-content-wraper {
   padding-left: 5rem;
-  padding-top: 2rem;
+  padding-top: 5rem;
   width: 40%;
   height: 100%;  
   background-color: rgba(0,0,0,0.552);
@@ -341,7 +340,7 @@ a.movie-item:hover {
 .cards-movie-primary {
   width: 100%;
   position: absolute;
-  top: 60%;
+  top: 46%;
   left: 0;
   
 }
