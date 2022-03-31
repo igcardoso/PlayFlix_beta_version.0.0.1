@@ -45,7 +45,7 @@
 
   .nav .optionUn:before {}
 </style>
-<body>
+<body id="body">
   <img class="background-fund" src="./images/transformer-banner.jpg" alt="image destaque">
   <!-- NAV -->
   <div class="nav-wrapper">
@@ -83,7 +83,7 @@
         <!-- SLIDE ITEM -->
         <div class="hero-slide-item hero-slide-item1">
           <div class="gradient">
-            
+
           </div>
           <!--<img src="./images/black-banner.png" alt="">-->
           <style type="text/css" media="all">
@@ -100,29 +100,29 @@
           <div class="overlay"></div>
           <div class="hero-slide-item-content">
             <div class="item-content-wraper">
-              <div class="item-content-title top-down">
+              <div class="item-content-title item-content-title1 top-down">
                 Stranger Things
               </div>
               <div class="movie-infos top-down delay-2">
-                <div class="star movie-info">
+                <div class="star star1 movie-info">
                   <i class="bx bxs-star"></i>
                   <span>8.6</span>
                 </div>
-                <div class="time movie-info">
+                <div class="time time1 movie-info">
                   <i class="bx bxs-time"></i>
                   <span>3 Temporadas</span>
                 </div>
-                <div class="resolut movie-info">
+                <div class="resolut resolut1 movie-info">
                   <span>HD</span>
                 </div>
-                <div class="class movie-info">
+                <div class="class class1 movie-info">
                   <span>16+</span>
                 </div>
               </div>
-              <div class="item-content-description top-down delay-4">
+              <div class="item-content-description item-content-description1 top-down delay-4">
                 Quando um garoto desaparece, a cidade toda participa nas buscas. Mas o que encontram são segredos, forças sobrenaturais e uma menina.
               </div>
-              <div class="item-action top-down delay-6">
+              <div class="item-action item-action1 top-down delay-6">
                 <a href="#" class="btn btn-hover">
                   <i class="bx bxs-right-arrow"></i>
                   <span>Assistir</span>
@@ -135,7 +135,7 @@
         <!-- SLIDE ITEM -->
         <div class="hero-slide-item hero-slide-item2">
           <div class="gradient">
-            
+
           </div>
           <!--<img src="./images/supergirl-banner.jpg" alt="">-->
           <style type="text/css" media="all">
@@ -187,7 +187,7 @@
         <!-- SLIDE ITEM -->
         <div class="hero-slide-item hero-slide-item3">
           <div class="gradient">
-            
+
           </div>
           <!--<img src="./images/wanda-banner.jpg" alt="">-->
           <style type="text/css" media="all">
@@ -447,7 +447,7 @@
         </div>
       </div>
     </div>
-    <br> 
+    <br>
     <br>
     <br>
     <!-- END LATEST MOVIES SECTION -->
@@ -1120,13 +1120,13 @@
                 <div class="pricing-box-content">
                   <p>
                     Netflix, Amazon prime, Paramount, filmes do cinema... Sem Disney Plus ou HBO max
- 
+
                   </p>
                   <p>
                     50% dos animes, filmes e Desenhos de outra empresa de striming
                   </p>
                   <p>
-                    65+ top Live 
+                    65+ top Live
                   </p>
                   <p>
                     <del>TV Channels</del>
@@ -1161,7 +1161,7 @@
                   </p>
                   <p>
                     TV Channels
-<del></del>
+                    <del></del>
                   </p>
                 </div>
                 <div class="pricing-box-action">
@@ -1220,19 +1220,19 @@
               </div>
             </div>
             <!--
-                                                                                                                                                                        <div class="col-3 col-md-6 col-sm-6">
-                                                                                                                                                                          <div class="content">
-                                                                                                                                                                            <p>
-                                                                                                                                                                              <b>Navegar</b>
-                                                                                                                                                                            </p>
-                                                                                                                                                                            <ul class="footer-menu">
-                                                                                                                                                                              <li><a href="#">About us</a></li>
-                                                                                                                                                                              <li><a href="#">My profile</a></li>
-                                                                                                                                                                              <li><a href="#">Pricing plans</a></li>
-                                                                                                                                                                              <li><a href="#">Contacts</a></li>
-                                                                                                                                                                            </ul>
-                                                                                                                                                                          </div>
-                                                                                                                                                                        </div>-->
+                                                                                                                                                                                    <div class="col-3 col-md-6 col-sm-6">
+                                                                                                                                                                                      <div class="content">
+                                                                                                                                                                                        <p>
+                                                                                                                                                                                          <b>Navegar</b>
+                                                                                                                                                                                        </p>
+                                                                                                                                                                                        <ul class="footer-menu">
+                                                                                                                                                                                          <li><a href="#">About us</a></li>
+                                                                                                                                                                                          <li><a href="#">My profile</a></li>
+                                                                                                                                                                                          <li><a href="#">Pricing plans</a></li>
+                                                                                                                                                                                          <li><a href="#">Contacts</a></li>
+                                                                                                                                                                                        </ul>
+                                                                                                                                                                                      </div>
+                                                                                                                                                                                    </div>-->
             <div class="col-3 col-md-6 col-sm-6">
               <div class="content">
                 <p>
@@ -1287,6 +1287,22 @@
   <!-- APP SCRIPT -->
   <script src="js/app.js"></script>
 
+  <!-- transition backdrop -->
+
+  <script type="text/javascript" charset="utf-8">
+
+    let main = document.getElementById('body');
+    let nav = document.getElementById('nav-menu');
+
+    main.addEventListener('scroll', function(event) {
+      var scroll = this.scrollTop;
+      if (scroll < 60) {
+        nav.style.opacity = '.'+scroll
+      } else {
+        nav.style.opacity = 1
+      }
+    });
+  </script>
 </body>
 
 </html>
