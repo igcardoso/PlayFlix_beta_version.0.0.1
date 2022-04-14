@@ -44,7 +44,7 @@ $(document).ready(() => {
     items: 2,
     dots: false,
     nav: true,
-    center: true,
+    left: true,
     navText: navText,
     margin: 15,
     focusOnSelect: true,
