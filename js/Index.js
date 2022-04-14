@@ -45,7 +45,6 @@ $(document).ready(() => {
     items: 2,
     dots: false,
     nav: true,
-    loop: true,
     center: true,
     navText: navText,
     margin: 15,
