@@ -22,6 +22,7 @@ $(document).ready(() => {
   $('#top-movies-slide').owlCarousel({
     items: 2,
     dots: false,
+    loop: true,
     autoplay: true,
     autoplayHoverPause: true,
     responsive: {
@@ -44,7 +45,8 @@ $(document).ready(() => {
     items: 2,
     dots: false,
     nav: true,
-    left: true,
+    loop: true,
+    center: true,
     navText: navText,
     margin: 15,
     focusOnSelect: true,
