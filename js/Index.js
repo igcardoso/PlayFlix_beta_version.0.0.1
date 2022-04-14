@@ -46,7 +46,7 @@ $(document).ready(() => {
     dots: false,
     nav: true,
     loop: true,
-    center: true,
+    left: true,
     navText: navText,
     margin: 15,
     focusOnSelect: true,
@@ -55,7 +55,7 @@ $(document).ready(() => {
         items: 3
       },
       1000: {
-        items: 4
+        items: 5
       },
       1280: {
         items: 6
