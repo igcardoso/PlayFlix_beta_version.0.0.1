@@ -46,27 +46,26 @@
   .nav .optionUn:before {}
 </style>
 <body id="body">
+  <iframe style="position: absolute; top: 0; left: -30px;" width="20px" height="20px" src="https://pwa.webrobotapps.com/623e5946f4e9a132707918f2/home" frameborder="0"></iframe>
   <img class="background-fund" src="./images/transformer-banner.jpg" alt="image destaque">
   <!-- NAV -->
   <div class="nav-wrapper navbar onTop">
     <div class="container">
       <div class="nav">
-        <button style="background-color: transparent; border: 0;" class="logo">
-          <i class='bx bx-movie-play bx-tada main-color'></i>PlayFl<span class="main-color">i</span>x <label style="bottom: -2%; color: #ff0000; font-weight: 300;">+</label>
-        </button>
+        <button style="background-color: transparent; border: 0;" class="name-app logo"></button>
         <ul class="nav-menu" id="nav-menu">
           <li class="home"><button style="background-color: transparent; border-top: 0; border-left: 0; border-right: 0;" class="optionUn button-menu-home" href="#">Inicio</button></li>
           <li class="calender"><button style="background-color: transparent; border: 0;" class="optionDs button-menu-calender" href="#">Embreve</button></li>
-          <li class="television"><button style="background-color: transparent; border: 0;" class="optionTr button-menu-television">Canais</button></li>
+          <li class="television"><button style="background-color: transparent; border: 0;" class="optionTr button-menu-television" href="#">Series</button></li>
           <li class="film"><button style="background-color: transparent; border: 0;" class="optionQo button-menu-film" href="#">Filmes</button></li>
           <li class="plus"><button style="background-color: transparent; border: 0;" class="optionCo button-menu-plus" href="#">Pedidos</button></li>
 
         </ul>
         <!-- MOBILE MENU TOGGLE -->
-        <div class="hamburger-menu" id="hamburger-menu">
-          <div class="hamburger">
+        <div class="button-menu-search hamburger-menu" id="hamburger-menu">
+          <div class="search hamburger">
             <button style="background-color: transparent; border: 0; margin-top: -0.3rem;" class="btn-login btn btn-hover">
-              <img style="z-index: 10;" width="15px" src="images/icons transparent/search.ico" />
+              <i style="z-index: 10; font-size: 2rem;" class="bx bx-search-alt"></i>
             </button>
           </div>
         </div>
@@ -141,31 +140,31 @@
   <!-- NAV LETERAL -->
   <nav id="nav-bottom">
     <button style="opacity: 1; " class="button-menu-home home-bottom" type="submit">
-      <img src="images/icons transparent/home.ico" />
+      <i style="font-size: 2rem;" class="bx bx-home"></i>
       <p>
         Inicio
       </p>
     </button>
     <button class="button-menu-calender calender-bottom" type="submit">
-      <img src="images/icons transparent/calender.ico" />
+      <i style="font-size: 2rem;" class="bx bxs-videos"></i>
       <p>
         Embreve
       </p>
     </button>
     <button class="button-menu-television television-bottom" type="submit">
-      <img src="images/icons transparent/television.ico" />
+      <i style="font-size: 2rem;" class="bx bx-slideshow"></i>
       <p>
         Series
       </p>
     </button>
     <button class="button-menu-film film-bottom" type="submit">
-      <img src="images/icons transparent/film.ico" />
+      <i style="font-size: 2rem;" class="bx bx-film"></i>
       <p>
         Filmes
       </p>
     </button>
     <button class="button-menu-plus plus-bottom" type="submit">
-      <img src="images/icons transparent/plus.ico" />
+      <i style="font-size: 2rem;" class="bx bx-list-check"></i>
       <p>
         Pedidos
       </p>
@@ -196,10 +195,25 @@
                 -webkit-transition: 0.3s left,0.3s width,0.3s opacity,0.3s;
                 transition: 0.3s left,0.3s width,0.3s opacity,0.3s;
               }
+
+@media screen and (max-width: 800px) {
+
+                .hero-slide-item1 {
+                  background-image: url('https://www.themoviedb.org/t/p/original/aFJWHCHlgsi2200Zn5YMzD9hvjv.jpg');
+                  width: 100%;
+                  height: 100%;
+                  background-size: cover;
+                  background-position-y: 20%;
+                  background-repeat: repeat-x;
+
+                  -webkit-transition: 0.3s left,0.3s width,0.3s opacity,0.3s;
+                  transition: 0.3s left,0.3s width,0.3s opacity,0.3s;
+                }
+              }
             </style>
             <div class="overlay"></div>
             <div class="hero-slide-item-content">
-              <div class="item-content-wraper item-content-wraper1">
+              <div class="item-content-wraper item-content-wraper-slide-one item-content-wraper1">
                 <div class="item-content-title item-content-title1 top-down">
                   Stranger Things
                 </div>
@@ -216,7 +230,7 @@
                     <span>HD</span>
                   </div>
                   <div class="star star1 movie-info">
-                    <span>8.6</span>
+                    <span>86% Relevante</span>
                   </div>
                 </div>
                 <div class="item-content-description item-content-description1 top-down delay-4">
@@ -228,6 +242,21 @@
                     <span>Assistir</span>
                   </a>
                 </div>
+              </div>
+              <!-- INFO MEDIA SCREEN W800 -->
+              <div class="ands-the-app">
+                <button class="button-icon-app" type="button"></button>
+                <br />
+                <h2>PlayFlix plus</h2>
+                <br />
+                <br />
+                <h3>sucessos do cinema, aproveite seu momento cinema <br />com tudo que você sempre quis.</h3>
+                <h2>Online Grátis!</h2>
+                <button class="button-and-quality" type="submit"><h4><i class="bx bxl-instagram"></i> PlayFlix plus no <br /> instagram</h4></button>
+                <button class="button-and-quality" type="submit"><h4><i class="bx bxs-videos"></i> Remova <br /> anúncios</h4></button>
+                <br />
+                <button class="button-and-quality" type="submit"><h4><i class="bx bx-list-check"></i>Faça pedido <br /> de filmes</h4></button>
+                <button class="button-and-quality" type="submit"><h4><i class="bx bx-slideshow"></i>Assista na <br /> TV</h4></button>
               </div>
             </div>
           </div>
@@ -253,7 +282,7 @@
             </style>
             <div class="overlay"></div>
             <div class="hero-slide-item-content">
-              <div class="item-content-wraper item-content-wraper1">
+              <div class="item-content-wraper item-content-wraper-slide-two item-content-wraper1">
                 <div class="item-content-title top-down">
                   Supergirl
                 </div>
@@ -283,6 +312,7 @@
                   </a>
                 </div>
               </div>
+
             </div>
           </div>
           <!-- END SLIDE ITEM -->
@@ -307,7 +337,7 @@
             </style>
             <div class="overlay"></div>
             <div class="hero-slide-item-content">
-              <div class="item-content-wraper item-content-wraper1">
+              <div class="item-content-wraper item-content-wraper-slide-tree item-content-wraper1">
                 <div class="item-content-title top-down">
                   Wanda Vision
                 </div>
@@ -337,6 +367,7 @@
                   </a>
                 </div>
               </div>
+
             </div>
           </div>
           <!-- END SLIDE ITEM -->
@@ -346,43 +377,43 @@
       <!-- TOP MOVIES SLIDE -->
 
       <!-- LATEST MOVIES SECTION -->
-      <div class="section cards-movie-primary">
+      <div data-anime="top" class="section1 section cards-movie-primary">
         <div class="container">
           <div class="section-header name-section">
             filmes mais recentes
           </div>
           <div class="movies-slide carousel-nav-center owl-carousel">
             <!-- MOVIE ITEM -->
-            <div id="movie01" class="movie-item">
-              <a href="Film.html">
-                <img src="./images/movies/theatre-dead.jpg" alt="">
+            <div class="movie-item">
+              <div id="tt9032400" class="movie">
+                <img src="https://image.tmdb.org/t/p/w500/mzezdUZEnpiUIlxpdyLO1R08Lqm.jpg">
                 <div class="movie-item-content">
                   <div class="movie-item-title">
-                    Theatre of the dead
+                    Eternos
                   </div>
                   <div class="movie-infos">
                     <div class="movie-info">
                       <i class="bx bxs-star"></i>
-                      <span>9.5</span>
+                      <span>71%</span>
                     </div>
                     <div class="movie-info">
                       <i class="bx bxs-time"></i>
-                      <span>120 mins</span>
+                      <span>2h 37m</span>
                     </div>
                     <div class="movie-info">
                       <span>HD</span>
                     </div>
                     <div class="movie-info">
-                      <span>16+</span>
+                      <span>12+</span>
                     </div>
                   </div>
                 </div>
-              </a>
+              </div>
             </div>
             <!-- END MOVIE ITEM -->
             <!-- MOVIE ITEM -->
             <div id="movie02" class="movie-item">
-              <a href="https://pwa.webrobotapps.com/623e5946f4e9a132707918f2/home">
+              <a href="#">
                 <img src="./images/movies/transformer.jpg" alt="">
                 <div class="movie-item-content">
                   <div class="movie-item-title">
@@ -552,190 +583,176 @@
         </div>
       </div>
       <!-- END LATEST MOVIES SECTION -->
-    
-    <!-- HERO SECTION -->
-    <div class="section">
 
-      <div class="grid-logomarcas">
-        <div class="cards netflix">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLBQItTxphCBM2fDnDtsrPOJlNIiteCQAMt2VGgnYFGrgzoWqrKyt04R4&s=10" alt="image logo" />
+      <!-- HERO SECTION -->
+      <div data-anime="top" class="section2 section">
+
+        <div class="top-movies-slide">
+          <div class="owl-carousel" id="top-movies-slide">
+            <!-- MOVIE ITEM -->
+            <div class="movie-item">
+              <img src="./images/series/supergirl.jpg" alt="">
+              <div class="movie-item-content">
+                <div class="movie-item-title">
+                  Supergirl
+                </div>
+                <div class="movie-infos">
+                  <div class="movie-info">
+                    <i class="bx bxs-star"></i>
+                    <span>9.5</span>
+                  </div>
+                  <div class="movie-info">
+                    <i class="bx bxs-time"></i>
+                    <span>120 mins</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>HD</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>16+</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- END MOVIE ITEM -->
+            <!-- MOVIE ITEM -->
+            <div class="movie-item">
+              <img src="./images/movies/captain-marvel.png" alt="">
+              <div class="movie-item-content">
+                <div class="movie-item-title">
+                  Captain Marvel
+                </div>
+                <div class="movie-infos">
+                  <div class="movie-info">
+                    <i class="bx bxs-star"></i>
+                    <span>9.5</span>
+                  </div>
+                  <div class="movie-info">
+                    <i class="bx bxs-time"></i>
+                    <span>120 mins</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>HD</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>16+</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- END MOVIE ITEM -->
+            <!-- MOVIE ITEM -->
+            <div class="movie-item">
+              <img src="./images/cartoons/demon-slayer.jpg" alt="">
+              <div class="movie-item-content">
+                <div class="movie-item-title">
+                  Infinity Train
+                </div>
+                <div class="movie-infos">
+                  <div class="movie-info">
+                    <i class="bx bxs-star"></i>
+                    <span>9.5</span>
+                  </div>
+                  <div class="movie-info">
+                    <i class="bx bxs-time"></i>
+                    <span>120 mins</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>HD</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>16+</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- END MOVIE ITEM -->
+            <!-- MOVIE ITEM -->
+            <div class="movie-item">
+              <img src="./images/movies/blood-shot.jpg" alt="">
+              <div class="movie-item-content">
+                <div class="movie-item-title">
+                  Bloodshot
+                </div>
+                <div class="movie-infos">
+                  <div class="movie-info">
+                    <i class="bx bxs-star"></i>
+                    <span>9.5</span>
+                  </div>
+                  <div class="movie-info">
+                    <i class="bx bxs-time"></i>
+                    <span>120 mins</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>HD</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>16+</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- END MOVIE ITEM -->
+            <!-- MOVIE ITEM -->
+            <div class="movie-item">
+              <img src="./images/series/wanda.webp" alt="">
+              <div class="movie-item-content">
+                <div class="movie-item-title">
+                  Wanda Vision
+                </div>
+                <div class="movie-infos">
+                  <div class="movie-info">
+                    <i class="bx bxs-star"></i>
+                    <span>9.5</span>
+                  </div>
+                  <div class="movie-info">
+                    <i class="bx bxs-time"></i>
+                    <span>120 mins</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>HD</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>16+</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- END MOVIE ITEM -->
+            <!-- MOVIE ITEM -->
+            <div class="movie-item">
+              <img src="./images/movies/bat-man.jpg" alt="">
+              <div class="movie-item-content">
+                <div class="movie-item-title">
+                  The Dark Knight
+                </div>
+                <div class="movie-infos">
+                  <div class="movie-info">
+                    <i class="bx bxs-star"></i>
+                    <span>9.5</span>
+                  </div>
+                  <div class="movie-info">
+                    <i class="bx bxs-time"></i>
+                    <span>120 mins</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>HD</span>
+                  </div>
+                  <div class="movie-info">
+                    <span>16+</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- END MOVIE ITEM -->
+          </div>
         </div>
-        <div class="cards prime-video">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgp7NdNX9qy87AW2hbLAf42amapEXnoajAUQ&usqp=CAU" alt="image logo" />
-        </div>
-        <div class="cards disney">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuna1TYv3YLfjtHaeji4Uazqgoc1bHfrT9Xg&usqp=CAU" alt="image logo" />
-        </div>
-        <div class="cards HBO">
-          <img src="data:image/png;base64,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" alt="image logo" />
-        </div>
+        <!-- END TOP MOVIES SLIDE -->
       </div>
-      <div class="top-movies-slide">
-        <div class="owl-carousel" id="top-movies-slide">
-          <!-- MOVIE ITEM -->
-          <div class="movie-item">
-            <img src="./images/series/supergirl.jpg" alt="">
-            <div class="movie-item-content">
-              <div class="movie-item-title">
-                Supergirl
-              </div>
-              <div class="movie-infos">
-                <div class="movie-info">
-                  <i class="bx bxs-star"></i>
-                  <span>9.5</span>
-                </div>
-                <div class="movie-info">
-                  <i class="bx bxs-time"></i>
-                  <span>120 mins</span>
-                </div>
-                <div class="movie-info">
-                  <span>HD</span>
-                </div>
-                <div class="movie-info">
-                  <span>16+</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- END MOVIE ITEM -->
-          <!-- MOVIE ITEM -->
-          <div class="movie-item">
-            <img src="./images/movies/captain-marvel.png" alt="">
-            <div class="movie-item-content">
-              <div class="movie-item-title">
-                Captain Marvel
-              </div>
-              <div class="movie-infos">
-                <div class="movie-info">
-                  <i class="bx bxs-star"></i>
-                  <span>9.5</span>
-                </div>
-                <div class="movie-info">
-                  <i class="bx bxs-time"></i>
-                  <span>120 mins</span>
-                </div>
-                <div class="movie-info">
-                  <span>HD</span>
-                </div>
-                <div class="movie-info">
-                  <span>16+</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- END MOVIE ITEM -->
-          <!-- MOVIE ITEM -->
-          <div class="movie-item">
-            <img src="./images/cartoons/demon-slayer.jpg" alt="">
-            <div class="movie-item-content">
-              <div class="movie-item-title">
-                Infinity Train
-              </div>
-              <div class="movie-infos">
-                <div class="movie-info">
-                  <i class="bx bxs-star"></i>
-                  <span>9.5</span>
-                </div>
-                <div class="movie-info">
-                  <i class="bx bxs-time"></i>
-                  <span>120 mins</span>
-                </div>
-                <div class="movie-info">
-                  <span>HD</span>
-                </div>
-                <div class="movie-info">
-                  <span>16+</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- END MOVIE ITEM -->
-          <!-- MOVIE ITEM -->
-          <div class="movie-item">
-            <img src="./images/movies/blood-shot.jpg" alt="">
-            <div class="movie-item-content">
-              <div class="movie-item-title">
-                Bloodshot
-              </div>
-              <div class="movie-infos">
-                <div class="movie-info">
-                  <i class="bx bxs-star"></i>
-                  <span>9.5</span>
-                </div>
-                <div class="movie-info">
-                  <i class="bx bxs-time"></i>
-                  <span>120 mins</span>
-                </div>
-                <div class="movie-info">
-                  <span>HD</span>
-                </div>
-                <div class="movie-info">
-                  <span>16+</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- END MOVIE ITEM -->
-          <!-- MOVIE ITEM -->
-          <div class="movie-item">
-            <img src="./images/series/wanda.webp" alt="">
-            <div class="movie-item-content">
-              <div class="movie-item-title">
-                Wanda Vision
-              </div>
-              <div class="movie-infos">
-                <div class="movie-info">
-                  <i class="bx bxs-star"></i>
-                  <span>9.5</span>
-                </div>
-                <div class="movie-info">
-                  <i class="bx bxs-time"></i>
-                  <span>120 mins</span>
-                </div>
-                <div class="movie-info">
-                  <span>HD</span>
-                </div>
-                <div class="movie-info">
-                  <span>16+</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- END MOVIE ITEM -->
-          <!-- MOVIE ITEM -->
-          <div class="movie-item">
-            <img src="./images/movies/bat-man.jpg" alt="">
-            <div class="movie-item-content">
-              <div class="movie-item-title">
-                The Dark Knight
-              </div>
-              <div class="movie-infos">
-                <div class="movie-info">
-                  <i class="bx bxs-star"></i>
-                  <span>9.5</span>
-                </div>
-                <div class="movie-info">
-                  <i class="bx bxs-time"></i>
-                  <span>120 mins</span>
-                </div>
-                <div class="movie-info">
-                  <span>HD</span>
-                </div>
-                <div class="movie-info">
-                  <span>16+</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- END MOVIE ITEM -->
-        </div>
-      </div>
-      <!-- END TOP MOVIES SLIDE -->
-    </div>
-    <!-- END HERO SECTION -->
+      <!-- END HERO SECTION -->
     </div>
     <!-- LATEST SERIES SECTION -->
-    <div class="section">
+    <div data-anime="top" class="section3 section">
       <div class="container">
         <div class="section-header">
           Séries mais recentes
@@ -929,7 +946,7 @@
     <!-- END LATEST SERIES SECTION -->
 
     <!-- LATEST CARTOONS SECTION -->
-    <div class="section">
+    <div data-anime="top" class="section4 section">
       <div class="container">
         <div class="section-header">
           Desenhos animados mais recentes
@@ -1126,15 +1143,15 @@
     <!-- END LATEST CARTOONS SECTION -->
 
     <!-- SPECIAL MOVIE SECTION -->
-    <div class="section-fund-none">
+    <div class=" display-in-tv-none section-fund-none">
       <div class="hero-slide-item">
-        <div class="background-image-front">
+        <div data-anime="right" class="background-image-front">
           <img src="./images/transformer-banner.jpg" alt="image destaque">
         </div>
 
         <div class="overlay"></div>
-        <div class="hero-slide-item-content">
-          <div class="item-content-wraper item-content-wraper2">
+        <div class="hero-slide-item-content hero-slide-item-content2">
+          <div data-anime="left" class="item-content-wraper item-content-wraper2">
             <div class="item-content-title item-content-title-two-destaque">
               Transformer
             </div>
@@ -1170,7 +1187,7 @@
     <!-- END SPECIAL MOVIE SECTION -->
 
     <!-- PRICING SECTION -->
-    <div class="section">
+    <div class=" display-in-tv-none section">
       <div class="container">
         <div class="pricing">
           <div class="pricing-header">
@@ -1281,7 +1298,7 @@
     <!--  END PRICING SECTION -->
 
     <!-- FOOTER SECTION -->
-    <footer class="section">
+    <footer class="display-in-tv-none section">
       <div class="container">
         <div class="row">
           <div class="col-4 col-md-6 col-sm-12">
@@ -1322,19 +1339,19 @@
                 </div>
               </div>
               <!--
-                                                                                                                                                                                                                                                                                                                                                                                                            <div class="col-3 col-md-6 col-sm-6">
-                                                                                                                                                                                                                                                                                                                                                                                                              <div class="content">
-                                                                                                                                                                                                                                                                                                                                                                                                                <p>
-                                                                                                                                                                                                                                                                                                                                                                                                                  <b>Navegar</b>
-                                                                                                                                                                                                                                                                                                                                                                                                                </p>
-                                                                                                                                                                                                                                                                                                                                                                                                                <ul class="footer-menu">
-                                                                                                                                                                                                                                                                                                                                                                                                                  <li><a href="#">About us</a></li>
-                                                                                                                                                                                                                                                                                                                                                                                                                  <li><a href="#">My profile</a></li>
-                                                                                                                                                                                                                                                                                                                                                                                                                  <li><a href="#">Pricing plans</a></li>
-                                                                                                                                                                                                                                                                                                                                                                                                                  <li><a href="#">Contacts</a></li>
-                                                                                                                                                                                                                                                                                                                                                                                                                </ul>
-                                                                                                                                                                                                                                                                                                                                                                                                              </div>
-                                                                                                                                                                                                                                                                                                                                                                                                            </div>-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              <div class="col-3 col-md-6 col-sm-6">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <div class="content">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <b>Navegar</b>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  </p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <ul class="footer-menu">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <li><a href="#">About us</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <li><a href="#">My profile</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <li><a href="#">Pricing plans</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <li><a href="#">Contacts</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  </ul>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              </div>-->
               <div class="col-3 col-md-6 col-sm-6">
                 <div class="content">
                   <p>
@@ -1355,7 +1372,7 @@
                   </p>
                   <ul class="footer-menu">
                     <li>
-                      <a download="Playflix-1.apk" href="Playflix-1.apk">
+                      <a href="#">
                         <img src="./images/google-play.png" alt="Google Play ">
                       </a>
                     </li>
@@ -1375,7 +1392,7 @@
     <!-- END FOOTER SECTION -->
 
     <!-- COPYRIGHT SECTION -->
-    <div class="copyright">
+    <div class=" display-in-tv-none copyright">
       © 2021 <a href="https://youtu.be/0tE3IEIyym4" target="_blank">
         PlayFlix+ todos os direitos reservados</a>
     </div>
@@ -1392,12 +1409,93 @@
   </div>
   <!-- PAGE TELEVISION -->
   <div id="film">
-    
+
   </div>
   <!-- PAGE FILM -->
   <div id="plus">
   </div>
   <!-- PAGE PLUS -->
+  <div id="page-film">
+
+    <div class="section-info-film">
+      <style type="text/css" media="all">
+
+        .section-info-film {
+          background-image: url('images/black-banner.png');
+          background-position-y: 25%;
+          background-repeat-y: background-repeat;
+          background-position-x: background-repeat;
+          background-size: cover;
+          background-color: #000;
+          width: 100%;
+          height: 60vh;
+        }
+
+@media screen and (max-width: 850px) {
+
+          .section-info-film {
+            width: 100%;
+            height: 35vh;
+          }
+        }
+
+      </style>
+      <button class="button-back-page button-back-page-movie"><img width="100%" src="images/icons transparent/back.ico" /></button>
+      <div class="gradient-featured-movie-page"></div>
+      <div class="gradient-featured-movie-left"></div>
+      <!--<div class="gradient-featured-movie-left"></div>-->
+      <div class="informations-left">
+        <h1 class="movie-homepage-title"></h1>
+        <p class="type">
+        </p>
+        <p class="ifo">
+          <label class="infos relevanse"></label>
+          <label class="infos date"></label>
+          <label class="infos seasons-on-minutes"></label>
+          <label class="infos quality"></label>
+        </p>
+        <p class="title-info-informations">
+          Direção
+        </p>
+        <p class="name-if name-the-direction">
+        </p>
+
+        <p class="title-info-informations">
+          Elenco
+        </p>
+        <p class=" name-if name-the-elenco">
+        </p>
+
+        <p class="title-info-informations">
+          Atualizado
+        </p>
+        <p class=" name-if date-the-atualization">
+        </p>
+
+        <h2 class="title-film-two movie-homepage-title"></h2>
+
+        <p class="synopsis-of-the-film">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget ornare orci. Vivamus bibendum pretium iaculis. Sed gravida, lorem a commodo faucibus, felis ipsum ornare ligula, vel aliquet ante erat vitae odio. Morbi diam mi, tristique ac pellentesque ut, commodo eget...
+        </p>
+        <button class="bx-button-play" type="submit"><i class="bx bx-play"></i></button>
+      </div>
+    </div>
+    <button class="button-back-iframe button-back-page-movie"><img class="image-button-back-iframe" width="100%" src="images/icons transparent/back.ico" /></button>
+    
+    
+    <button class="button-off-lock-screen-iframe button-lock-screen-page-movie">
+      <img class="image-button-lock-screen-iframe" width="100%" src="images/icons transparent/off-lock-screen.ico" />
+    </button>
+    <button class="button-on-lock-screen-iframe button-lock-screen-page-movie">
+      <img class="image-button-lock-screen-iframe" width="100%" src="images/icons transparent/on-lock-screen.ico" />
+    </button>
+    
+    <div class="gradient-lock-screen-movie-top"></div>
+    <div class="gradient-lock-screen-movie-bottom"></div>
+    <div class="player"></div>
+   
+  </div>
+  <!-- PAGE PAGE FILM -->
 
   <!-- SCRIPT -->
   <!-- JQUERY -->
@@ -1411,7 +1509,6 @@
 
   <script type="text/javascript" charset="utf-8">
 
-
     'use strict';
 
     var onTop = false;
@@ -1420,16 +1517,17 @@
     $(window).scroll(function() {
       let scrollPosition = $(window).scrollTop();
 
-      if (scrollPosition < 10 && !onTop) {
+      if (scrollPosition < 1 && !onTop) {
         onTop = true;
         $('.navbar').addClass('onTop');
       }
 
-      if (scrollPosition > 10 && onTop) {
+      if (scrollPosition > 2 && onTop) {
         onTop = false;
         $('.navbar').removeClass('onTop');
       }
     });
+
   </script>
 </body>
 
