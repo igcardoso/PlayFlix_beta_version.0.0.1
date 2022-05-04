@@ -60,14 +60,14 @@ $(document).ready(() => {
   });
 
   $('#top-movies-slide').owlCarousel({
-    items: 2,
+    items: 3,
     dots: false,
     loop: true,
     autoplay: true,
     autoplayHoverPause: true,
     responsive: {
       500: {
-        items: 3
+        items: 4
       },
       1000: {
         items: 4
@@ -82,7 +82,7 @@ $(document).ready(() => {
   });
 
   $('.movies-slide').owlCarousel({
-    items: 1,
+    items: 3,
     dots: false,
     nav: true,
     loop: false,
@@ -92,7 +92,7 @@ $(document).ready(() => {
     focusOnSelect: true,
     responsive: {
       500: {
-        items: 3
+        items: 4
       },
       1000: {
         items: 5
@@ -255,17 +255,17 @@ $(document).ready(function() {
     });
     
     $('.button-off-lock-screen-iframe').css({
-      left: '8%',
+      left: '8.2%',
       borderTopRightRadius: '8em',
       borderBottomRightRadius: '8em',
       borderTopLeftRadius: '0',
       borderBottomLeftRadius: '0',
-      paddingLeft: '2.7rem',
-      paddingRight: '0.7rem'
+      paddingLeft: '4%',
+      paddingRight: '1.2%'
     });
     
     $('.button-on-lock-screen-iframe').css({
-      left: '-1.1%',
+      left: '-2.9%',
       
     });
     
@@ -291,17 +291,17 @@ $(document).ready(function() {
     });
     
     $('.button-off-lock-screen-iframe').css({
-      left: '47%',
+      left: '45%',
       borderTopRightRadius: '0',
       borderBottomRightRadius: '0',
       borderTopLeftRadius: '8em',
       borderBottomLeftRadius: '8em',
-      paddingLeft: '0.7rem',
-      paddingRight: '2rem'
+      paddingLeft: '1.2%',
+      paddingRight: '3.2%'
     });
     
     $('.button-on-lock-screen-iframe').css({
-      left: '46%'
+      left: '44%'
     });
     
   });
@@ -883,6 +883,7 @@ $(document).ready(function() {
     
     $('.section-info-film').css({
       background: 'url(https://www.themoviedb.org/t/p/original/3dUByTea97X3XzznN8ZPFX9c7J7.jpg), no-repeat center', backgroundSize: 'cover'
+      
     });
     
     $('#page-film .movie-homepage-title').text('Eternos');
