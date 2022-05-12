@@ -985,7 +985,7 @@ $(document).ready(function() {
       display: 'none'
     });
 
-  });
+  }); 
   // FILME tt9032400
 });
 
