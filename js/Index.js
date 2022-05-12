@@ -64,6 +64,7 @@ $(document).ready(() => {
     dots: false,
     loop: true,
     autoplay: true,
+    margin: 2,
     autoplayHoverPause: true,
     responsive: {
       500: {
