@@ -121,7 +121,7 @@ img {
 }
 
 .nav-menu button {
-  font-size: 3vh;
+  font-size: 18px;
   font-weight: 400;
 }
 
@@ -137,7 +137,7 @@ button.movie-item:hover {
 
 .btn {
   color: var(--text-color);
-  padding: 4% 4.5%;
+  padding: 1rem 1.5rem;
   font-size: 100%;
   font-weight: 400;
   display: inline-flex;
@@ -248,7 +248,7 @@ button.movie-item:hover {
 .item-content-wraper {
   padding-left: 5rem;
   padding-top: 5%;
-  width: 40%;
+  width: 50%;
   height: 100%;
   background-color: transparent;
   display: flex;
@@ -256,6 +256,10 @@ button.movie-item:hover {
   justify-content: top;
   position: relative;
 }
+
+ .hero-slide-item {
+    padding-top: 50%;
+  }
 
 .ands-the-app {
   display: none;
@@ -437,7 +441,7 @@ button.movie-item:hover {
   display: block;
   position: relative;
   overflow: hidden;
-  padding-top: 140%;
+  padding-top: 100%;
   margin: 1%;
   cursor: pointer;
   border-radius: 0.3em;
@@ -455,7 +459,7 @@ button.movie-item:hover {
 
 .movie-item-title {
   color: var(--text-color);
-  font-size: 1.2rem;
+  font-size: 1rem;
   position: relative;
   font-weight: 700;
 }
@@ -819,7 +823,7 @@ footer .content {
 
 /* RESPONSIVE */
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 1366px) {
 
   .nav-wrapper {
     display: none;
@@ -973,19 +977,16 @@ footer .content {
   
 }
 
-@media only screen and (min-width: 300px) {
-  html {
-    font-size: 14px;
-  }
-
+@media only screen and (max-width: 1000px) {
+  
   .hero-slide-item {
-    padding-top: 50%;
+    padding-top: 61%;
   }
-
+  
   .item-content-wraper {
-    width: 50%;
+    padding-top: 8%;
+    width: 92%;
   }
-
 }
 
 @media only screen and (max-width: 500px) {
