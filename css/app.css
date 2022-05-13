@@ -987,6 +987,23 @@ footer .content {
     padding-top: 8%;
     width: 92%;
   }
+
+  .hero-slide-item .background-image-front {
+    display: none;
+   }
+  
+   .section-info-film .bx-button-play {
+    position: absolute;
+    top: 9.2%;
+    left: 80%;
+    transform: translateX(-80%);
+    width: 8rem;
+    height: 8rem;
+    background: none;
+    border-radius: 50%;
+    border: 5.4px solid #fff;
+  }
+
 }
 
 @media only screen and (max-width: 500px) {
