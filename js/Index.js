@@ -907,7 +907,7 @@ $(document).ready(function() {
     
     $('#page-film .synopsis-of-the-film').text('Após os eventos de "Vingadores: Ultimato", os Eternos, uma raça alienígena imortal criada pelos Celestiais que vivem em segredo na Terra há mais de 7000 anos, se reúnem após uma tragédia inesperada para proteger a humanidade de seus colegas malignos: os Deviantes.');
     
-    $('.player').append(tt9032400);
+    $('.player').append(a299536);
     
     $('#menu-left').css({
       opacity: '0',
