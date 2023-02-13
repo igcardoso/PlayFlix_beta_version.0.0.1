@@ -883,7 +883,7 @@ $(document).ready(function() {
     });
     
     $('.section-info-film').css({
-      background: 'url(https://www.themoviedb.org/t/p/original/3dUByTea97X3XzznN8ZPFX9c7J7.jpg), no-repeat center', backgroundSize: 'cover'
+      background: 'url(https://www.themoviedb.org/t/p/original/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg), no-repeat center', backgroundSize: 'cover'
       
     });
     
