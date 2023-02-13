@@ -901,7 +901,7 @@ $(document).ready(function() {
     
     $('#page-film .name-the-direction').text('HD');
     
-    $('#page-film .name-the-elenco').text('Robert Downey Jr., Richard Madden, Angelina Jolie, Barry Keoghan ...');
+    $('#page-film .name-the-elenco').text('Robert Downey Jr., Chris Hemsworth, Mark Ruffalo, Chris Evans ...');
     
     $('#page-film .date-the-atualization').text('4 dias e 7 horas');
     
