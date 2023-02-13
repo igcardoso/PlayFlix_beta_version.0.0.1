@@ -901,7 +901,7 @@ $(document).ready(function() {
     
     $('#page-film .name-the-direction').text('HD');
     
-    $('#page-film .name-the-elenco').text('Gemma Chan, Richard Madden, Angelina Jolie, Barry Keoghan ...');
+    $('#page-film .name-the-elenco').text('Robert Downey Jr., Richard Madden, Angelina Jolie, Barry Keoghan ...');
     
     $('#page-film .date-the-atualization').text('4 dias e 7 horas');
     
