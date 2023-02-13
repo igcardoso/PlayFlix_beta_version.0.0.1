@@ -887,15 +887,15 @@ $(document).ready(function() {
       
     });
     
-    $('#page-film .movie-homepage-title').text('Eternos');
+    $('#page-film .movie-homepage-title').text('Vingadores Guerra Infinita ');
     
     $('#page-film .type').text('Ficção científica');
     
-    $('#page-film .relevanse').text('71% Relevante');
+    $('#page-film .relevanse').text('83% Relevante');
     
     $('#page-film .date').text('2021');
     
-    $('#page-film .seasons-on-minutes').text('2h 37m');
+    $('#page-film .seasons-on-minutes').text('3h 2m');
     
     $('#page-film .quality').text('HD');
     
@@ -905,7 +905,7 @@ $(document).ready(function() {
     
     $('#page-film .date-the-atualization').text('4 dias e 7 horas');
     
-    $('#page-film .synopsis-of-the-film').text('Após os eventos de "Vingadores: Ultimato", os Eternos, uma raça alienígena imortal criada pelos Celestiais que vivem em segredo na Terra há mais de 7000 anos, se reúnem após uma tragédia inesperada para proteger a humanidade de seus colegas malignos: os Deviantes.');
+    $('#page-film .synopsis-of-the-film').text('Homem de Ferro, Thor, Hulk e os Vingadores se unem para combater seu inimigo mais poderoso, o maligno Thanos. Em uma missão para coletar todas as seis pedras infinitas, Thanos planeja usá-las para infligir sua vontade maléfica sobre a realidade.');
     
     $('.player').append(a299536);
     
